@@ -11,5 +11,5 @@ function saveToLocalStorage(e) {
 }
 
 submitButton.addEventListener("click", () => {
-    window.open("../../src/pages/success.html", "_blank");
+    window.open("../pages/success.html", "_blank");
 })
