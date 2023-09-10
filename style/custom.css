@@ -1,0 +1,12 @@
+:root {
+    --custom-clr-orange: hsl(25, 97%, 53%);
+    --custom-clr-white: hsl(0, 0%, 100%);
+    --custom-clr-light-gray: hsl(217, 12%, 63%);
+    --custom-clr-medium-gray: hsl(216, 12%, 54%);
+    --custom-clr-dark-blue: hsl(213, 19%, 18%);
+    --custom-clr-very-dark-blue: hsl(216, 12%, 8%);
+    --custom-clr-bg-gradient-one: hsl(215, 20%,17%);
+    --custom-clr-bg-gradient-two: hsl(215, 27%, 12%);
+    --custom-clr-icon-bg: hsl(210, 20%, 18%);
+    --custom-clr-button-bg: hsl(210, 19%, 18%);
+}

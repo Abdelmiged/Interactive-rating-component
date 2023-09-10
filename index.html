@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/output.css">
+  <link rel="stylesheet" href="style/custom.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body class="bg-[--custom-clr-very-dark-blue] py-32 min-[1440px]:py-40">
+  <main class="max-w-[340px] m-auto rounded-2xl bg-gradient-to-b from-[--custom-clr-bg-gradient-one] from-60% to-[--custom-clr-bg-gradient-two] to-100% p-5 flex flex-col">
+    <div class="flex justify-center items-center rounded-full bg-[--custom-clr-icon-bg] w-[3rem] h-[3rem] mb-4">
+      <img src="images/icon-star.svg">
+    </div>
+    <div class="mb-8">
+      <h1 class="text-white text-[1.7rem] font-regular tracking-wide mb-[0.8rem]">How did we do?</h1>
+      <p class="text-[--custom-clr-medium-gray] max-w-[36ch] text-[.9rem] font-regular leading-[1.4rem] font-medium">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </div>
+    <div class="rating-container flex items-center justify-between mb-6">
+      <button class="w-[2.8rem] h-[2.8rem] rounded-full bg-[--custom-clr-button-bg] text-[--custom-clr-medium-gray] hover:bg-[--custom-clr-orange] hover:text-white transition-colors cursor-pointer focus:bg-[--custom-clr-light-gray] focus:text-white">1</button>
+      <button class="w-[2.8rem] h-[2.8rem] rounded-full bg-[--custom-clr-button-bg] text-[--custom-clr-medium-gray] hover:bg-[--custom-clr-orange] hover:text-white transition-colors cursor-pointer focus:bg-[--custom-clr-light-gray] focus:text-white">2</button>
+      <button class="w-[2.8rem] h-[2.8rem] rounded-full bg-[--custom-clr-button-bg] text-[--custom-clr-medium-gray] hover:bg-[--custom-clr-orange] hover:text-white transition-colors cursor-pointer focus:bg-[--custom-clr-light-gray] focus:text-white">3</button>
+      <button class="w-[2.8rem] h-[2.8rem] rounded-full bg-[--custom-clr-button-bg] text-[--custom-clr-medium-gray] hover:bg-[--custom-clr-orange] hover:text-white transition-colors cursor-pointer focus:bg-[--custom-clr-light-gray] focus:text-white">4</button>
+      <button class="w-[2.8rem] h-[2.8rem] rounded-full bg-[--custom-clr-button-bg] text-[--custom-clr-medium-gray] hover:bg-[--custom-clr-orange] hover:text-white transition-colors cursor-pointer focus:bg-[--custom-clr-light-gray] focus:text-white">5</button>
+    </div>
+    <button class="flex justify-center items-center submit-button w-full h-12 rounded-[2rem] bg-[--custom-clr-orange] text-white text-[1rem] uppercase tracking-widest cursor-pointer hover:bg-white hover:text-[--custom-clr-orange] transition-colors mb-4">
+      submit
+    </button>
+  </main>
+  <script src="script/main.js"></script>
+</body>
+</html>
